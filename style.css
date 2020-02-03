@@ -551,7 +551,7 @@ responsive
 
   header .navbar-brand {
     font-size:18px;
-    margin-right:100px;
+    margin-right:0px;
   }
 
   .navbar-nav {
