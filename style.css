@@ -545,17 +545,21 @@ responsive
   }
 
   header .wrap {
-    padding-top:10px;
-    width:90%;
+    padding:10px 5px 0 5px;
+    width:100%;
   }
 
   header .navbar-brand {
     font-size:18px;
-    margin-right:0px;
+    margin-right:0;
   }
 
   .navbar-nav {
-    text-align:right;
+    text-align:center;
+  }
+
+  .nav-item {
+    background-color: white;
   }
 
   .navbar-nav a {
