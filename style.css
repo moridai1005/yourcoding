@@ -9,6 +9,10 @@ body{
   color:#333333;
   }
 
+h1 {
+  font-weight:600;
+}
+
 header { 
   box-shadow: 0px 3px 6px #00000029;
   height:94px;
@@ -560,6 +564,15 @@ responsive
 
   .nav-item {
     background-color: white;
+    border:1px solid white;
+  }
+
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-bottom:5px;
+  }
+
+  .navbar-nav a {
+    font-size:20px;
   }
 
   .navbar-nav a {
@@ -738,14 +751,42 @@ tablets
 
   header .contact-form {
     margin-right:0;
+    position:absolute;
+    right:70px;
+    top:11px;
+  }
+
+  header .contact-btn {
+    padding:10px !important; 
   }
 
   .navbar-nav a {
     margin-right:24px;
   }
 
+  .collapse {
+    justify-content: space-between !important;
+  }
+
   h1 { 
     text-align:center !important;
+  }
+
+  .navbar-nav {
+    text-align:center;
+  }
+
+  .nav-item {
+    background-color: white;
+    border:1px solid white;
+  }
+
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-bottom:5px;
+  }
+
+  .navbar-nav a {
+    font-size:20px;
   }
 
   /*
@@ -760,8 +801,13 @@ tablets
 
   .content-top .text-content {
     padding:0;
-    margin-bottom:40px;
+    margin-bottom:40px !important;
   }
+
+  .content-top .text-content p {
+    font-size:24px;
+  }
+  
 
   .circle {
     background-size: cover;
@@ -772,12 +818,13 @@ tablets
     display:none;
   }
 
+
   /*
   feature
   */
 
   .feature {
-    padding-top:180px;
+    padding-top:280px;
   }
 
 

@@ -3,6 +3,7 @@ $(function() {
 
   $('.contact-btn').click(
     function() {
+      console.log("True");
       if($(this).closest(".submit-button").length){
         return;
       }else{
